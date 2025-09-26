@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NASA Bioscience Dashboard — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR will be injected here by script.js -->
+  <div id="navbar-placeholder"></div>
+
+  <main class="container">
+    <section class="hero">
+      <h1>NASA Bioscience Dashboard</h1>
+      <p class="tagline">
+        Explore and summarise NASA bioscience publications — searchable experiments,
+        team profiles, and an embedded Power BI dashboard.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn" href="about.html">About Us</a>
+        <a class="btn ghost" href="experiments.html">Experiments</a>
+        <a class="btn ghost" href="dashboard.html">Open Dashboard</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <article>
+        <h2>Why this project?</h2>
+        <p>Make NASA bioscience results discoverable and interactive — no backend required.</p>
+      </article>
+      <article>
+        <h2>Dynamic pages</h2>
+        <p>Nav, About cards, and Experiments are generated from JS arrays for easy maintenance.</p>
+      </article>
+      <article>
+        <h2>Power BI integration</h2>
+        <p>Dashboard page loads an iframe whose URL you set in <code>script.js</code>.</p>
+      </article>
+    </section>
+
+    <section class="preview-cards">
+      <div class="card">
+        <h3>Latest Papers</h3>
+        <p>Placeholder: later we can fetch summaries from a JSON file or an API.</p>
+      </div>
+      <div class="card">
+        <h3>Experiment Explorer</h3>
+        <p>Filter by topic, platform, or date — driven by a JS array.</p>
+      </div>
+      <div class="card">
+        <h3>Reports</h3>
+        <p>Embed Power BI reports for interactive visualisation and exporting.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> NASA Bioscience Dashboard — Built with HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

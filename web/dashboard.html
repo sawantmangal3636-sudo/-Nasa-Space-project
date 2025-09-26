@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NASA Bioscience Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        /* Dashboard iframe styling */
+        #dashboard-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+        iframe {
+            width: 1000px;
+            height: 600px;
+            border: 1px solid #ccc;
+        }
+        /* Chatbot styling */
+        #chatbox {
+            width: 1000px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px #aaa;
+        }
+        #chatlog {
+            border: 1px solid #ccc;
+            height: 300px;
+            padding: 10px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+        #chatinput {
+            width: 80%;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        #sendBtn {
+            padding: 10px 15px;
+            border-radius: 4px;
+            border: none;
+            background-color: #0072C6;
+            color: white;
+            cursor: pointer;
+        }
+        #sendBtn:hover {
+            background-color: #005a9e;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>NASA Bioscience Dashboard</h1>
+
+    <!-- Power BI Dashboard -->
+    <div id="dashboard-container">
+        <iframe 
+            src="YOUR_POWERBI_EMBED_LINK_HERE" 
+            frameborder="0" 
+            allowFullScreen="true">
+        </iframe>
+    </div>
+
+    <!-- Chatbot -->
+    <div id="chatbox">
+        <h3>Chat with NASA Assistant</h3>
+        <div id="chatlog"></div>
+        <input type="text" id="chatinput" placeholder="Type your message...">
+        <button id="sendBtn">Send</button>
+    </div>
+
+    <script>
+        // Chatbot functionality
+        const sendBtn = document.getElementById('sendBtn');
+        const chatInput = document.getElementById('chatinput');
+        const chatLog = document.getElementById('chatlog');
+
+        sendBtn.addEventListener('click', sendMessage);
+        chatInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') sendMessage();
+        });
+
+        async function sendMessage() {
+            const message = chatInput.value.trim();
+            if (!message) return;
+
+            // Display user message
+            chatLog.innerHTML += `<div><b>You:</b> ${message}</div>`;
+            chatInput.value = '';
+            chatLog.scrollTop = chatLog.scrollHeight;
+
+            try {
+                const response = await fetch('http://localhost:3000/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message })
+                });
+                const data = await response.json();
+                chatLog.innerHTML += `<div><b>Bot:</b> ${data.reply}</div>`;
+                chatLog.scrollTop = chatLog.scrollHeight;
+            } catch (err) {
+                chatLog.innerHTML += `<div><b>Bot:</b> Sorry, something went wrong.</div>`;
+                console.error(err);
+            }
+        }
+    </script>
+
+</body>
+</html>

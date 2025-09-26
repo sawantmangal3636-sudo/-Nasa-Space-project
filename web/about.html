@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - NASA Bioscience Dashboard</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar placeholder -->
+  <div id="navbar-placeholder"></div>
+
+  <script>
+    fetch("navbar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("navbar-placeholder").innerHTML = data;
+      })
+      .catch(error => console.error("Error loading navbar:", error));
+  </script>
+
+  <!-- Hero Section -->
+  <section class="text-center py-12 px-6 bg-gradient-to-r from-indigo-900 via-black to-indigo-900 text-white">
+    <h1 class="text-4xl font-bold mb-4">Meet Our Team 🌍</h1>
+    <p class="max-w-3xl mx-auto text-lg">
+      The brilliant minds behind the NASA Bioscience Dashboard, working together to push the 
+      boundaries of human space exploration.
+    </p>
+  </section>
+
+  <!-- Team Section -->
+  <section class="py-16 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center mb-12">Our Team</h2>
+
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      <!-- Person 1 -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+        <img src="images/person1.jpg" alt="Mugdha" class="w-full h-56 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold">Mugdha</h3>
+          <p class="text-indigo-600 font-medium">Lead Scientist</p>
+          <p class="mt-3 text-gray-600 text-sm">
+            Expert in space biology, focusing on how living organisms adapt in microgravity.
+          </p>
+        </div>
+      </div>
+
+      <!-- Person 2 -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+        <img src="images/person2.jpg" alt="Miku" class="w-full h-56 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold">miku</h3>
+          <p class="text-indigo-600 font-medium">Mission Specialist</p>
+          <p class="mt-3 text-gray-600 text-sm">
+            Works on astronaut health and performance during long-duration space missions.
+          </p>
+        </div>
+      </div>
+
+      <!-- Person 3 -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+        <img src="images/person3.jpg" alt="Mrunal" class="w-full h-56 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold">Mrunal</h3>
+          <p class="text-indigo-600 font-medium">Data Analyst</p>
+          <p class="mt-3 text-gray-600 text-sm">
+            Analyzes bioscience experiment data to uncover insights that guide future missions.
+          </p>
+        </div>
+      </div>
+
+      <!-- Person 4 -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+        <img src="images/person4.jpg" alt="Sonu" class="w-full h-56 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-bold">Sonu</h3>
+          <p class="text-indigo-600 font-medium">Engineer</p>
+          <p class="mt-3 text-gray-600 text-sm">
+            Designs innovative tools and technology to support bioscience research in space.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-4">
+    <p>&copy; 2025 NASA Bioscience Dashboard | Built with ❤️ by Our Team</p>
+  </footer>
+
+</body>
+</html>

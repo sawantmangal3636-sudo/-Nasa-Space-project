@@ -1,4 +1,4 @@
-// backend/app.js
+backend/app.js
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
@@ -48,20 +48,18 @@ function searchPubs(rawQuery, k = 5){
   .sort((a,b) => b.score - a.score)
   .slice(0, k)
   .map(x => x.pub);
-}
 
-// ----------------------
 // API Routes
-// ----------------------
 
-// GET /api/search?q=plant
+
+
 app.get('/api/search', (req, res) => {
   const q = req.query.q || '';
   const results = searchPubs(q, 20);
   res.json({ count: results.length, results });
 });
 
-// POST /api/ask { question: "something" }
+// POST /api/ask question-something
 app.post('/api/ask', (req, res) => {
   const question = (req.body.question || '').trim();
   if (!question) return res.status(400).json({ error: 'Provide { "question": "..." }' });
@@ -84,7 +82,7 @@ app.post('/api/ask', (req, res) => {
   res.json({ answer, sources });
 });
 
-// GET /api/graph
+// GET (api graph)
 app.get('/api/graph', (req, res) => {
   const nodes = [];
   const edges = [];
@@ -110,13 +108,14 @@ app.get('/api/graph', (req, res) => {
   res.json({ nodes, edges });
 });
 
-// ----------------------
+
 // Serve frontend
-// ----------------------
+
 const staticPath = path.join(__dirname, '..', 'web');
 app.use(express.static(staticPath));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
-});
+});}
+

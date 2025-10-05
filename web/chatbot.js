@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   async function sendMessage() {
+    
     const userMsg = input.value.trim();
     // print(userMsg);
     if (!userMsg) return;

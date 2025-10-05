@@ -62,8 +62,8 @@ body, html {
 }
 
 .about-embed {
-    top: 5000px;
-    display: flex;
+  top: 500px;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -84,7 +84,7 @@ body, html {
     color: black;
     padding: 5px 10px;
     border-radius: 5px;
-    
+
 }
 
 /* Banner */
@@ -140,39 +140,43 @@ nav ul li a {
     font-size: 1.2em;
     margin-bottom: 40px;
 }
-
 .team {
     top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
+    align-items: flex-start;
+    margin-top: 10px;         /* move it higher */
+    padding-top: 20px; 
+    padding-bottom: 200px;       optional: space inside */
 }
 
 .team-member {
     top: 20px;
     background-color: #d8b4d8;
     width: 200px;
+    height: 200px;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
 }
 
 .team-member .photo {
-    top: 20px;
+    top: 50px;
     width: 100px;
     height: 100px;
-    background-color: #ccc;
-    margin: 0 auto;
+    margin: 0 100px;
     border-radius: 50%;
-    margin-bottom: 10px;
+    text-align: top;
+    /* margin-bottom: 50px; */
+
 }
 
-.member img {
+/* .member img {
   width: 100%;
   height: 25%;
   border-radius: 50%;
-}
-
+} */
 .chatbot-icon {
     position: fixed;
     bottom: 20px;

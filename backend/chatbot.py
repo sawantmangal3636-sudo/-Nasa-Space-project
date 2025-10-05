@@ -115,4 +115,4 @@ def get_chatbot_response(query: str) -> str:
     if hybrid_chatbot_instance:
         return hybrid_chatbot_instance.ask(query)
     else:
-        return "🚨 Chatbot service is unavailable due to initialization error."
+        return "🚨Chatbot service is unavailable due to initialization error."

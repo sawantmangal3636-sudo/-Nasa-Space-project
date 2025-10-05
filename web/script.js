@@ -210,3 +210,41 @@ document.addEventListener("DOMContentLoaded", () => {
     drawGraph();
   }
 });
+
+// async function sendMessage() {
+//   const userInput = document.getElementById("chat-input").value.trim();
+//   if (!userInput) return;
+
+//   // Display user message
+//   addMessage("user", userInput);
+
+//   // Send to Flask backend
+//   try {
+//     const response = await fetch("http://127.0.0.1:5000/ask", {
+//       method: "POST",
+//       headers: { "Content-Type": "application/json" },
+//       body: JSON.stringify({ query: userInput })
+//     });
+
+//     const data = await response.json();
+//     const botReply = data.answer || "Sorry, I couldn’t find an answer.";
+
+//     // Display bot reply
+//     addMessage("bot", botReply);
+//   } catch (error) {
+//     addMessage("bot", "Error connecting to chatbot server.");
+//     console.error("Chatbot error:", error);
+//   }
+
+//   document.getElementById("chat-input").value = "";
+// }
+
+// function addMessage(sender, text) {
+//   const chatBox = document.getElementById("chat-box");
+//   const msgDiv = document.createElement("div");
+//   msgDiv.classList.add(sender === "user" ? "user-msg" : "bot-msg");
+//   msgDiv.textContent = text;
+//   chatBox.appendChild(msgDiv);
+//   chatBox.scrollTop = chatBox.scrollHeight;
+// }
+

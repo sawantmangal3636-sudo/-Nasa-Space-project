@@ -51,8 +51,6 @@ function searchPubs(rawQuery, k = 5){
 
 // API Routes
 
-
-
 app.get('/api/search', (req, res) => {
   const q = req.query.q || '';
   const results = searchPubs(q, 20);
@@ -108,7 +106,6 @@ app.get('/api/graph', (req, res) => {
   res.json({ nodes, edges });
 });
 
-
 // Serve frontend
 
 const staticPath = path.join(__dirname, '..', 'web');
@@ -118,4 +115,3 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
 });}
-

@@ -1,0 +1,368 @@
+[
+  {"question": "What is AI?", 
+   "answer": "AI stands for Artificial Intelligence."
+  },
+  {"question": "What is Python?", 
+  "answer": "Python is a programming language."
+  },
+  {
+    "question": "What is this dashboard about?",
+    "answer": "This dashboard summarizes NASA bioscience publications to help users explore results from space biology experiments and understand their impact on human space exploration."
+  },
+  {
+    "question": "Why was this dashboard created?",
+    "answer": "NASA has decades of bioscience research data. This dashboard makes it easier for researchers, students, and enthusiasts to find relevant information about space biology and its applications for Moon and Mars missions."
+  },
+  {
+    "question": "How can I search for publications?",
+    "answer": "Use the search bar at the top to enter keywords like 'microgravity', 'radiation', 'plant growth', or 'astronaut health'."
+  },
+  {
+    "question": "Can I look up specific experiments?",
+    "answer": "Yes. Type experiment names or related topics in the search bar to quickly find matching publications."
+  },
+  {
+    "question": "Where is the search option?",
+    "answer": "The search bar is located at the top center of the dashboard."
+  },
+  {
+    "question": "What are knowledge graphs used for here?",
+    "answer": "The dashboard uses knowledge graphs to connect related topics, experiments, and findings across multiple NASA publications."
+  },
+  {
+    "question": "How do filters work?",
+    "answer": "You can filter results by year, research area, space mission, or experiment type using the filter panel on the left side."
+  },
+  {
+    "question": "Can I filter by mission?",
+    "answer": "Yes. You can filter publications by mission, such as Apollo, ISS, or upcoming Artemis programs."
+  },
+  {
+    "question": "How do I view experiment impacts?",
+    "answer": "Click on any publication card to open a summary of the experiment, its results, and its potential impacts on human space exploration."
+  },
+  {
+    "question": "Does the dashboard provide summaries?",
+    "answer": "Yes. Each publication includes an AI-generated summary highlighting key findings and their significance."
+  },
+  {
+    "question": "Where does the data come from?",
+    "answer": "The data comes from NASA’s publicly available bioscience publications collected over decades."
+  },
+  {
+    "question": "Can I download publication details?",
+    "answer": "Yes. Each publication card has a 'Download' option that allows you to export the summary and metadata as a PDF."
+  },
+  {
+    "question": "Can I download multiple results?",
+    "answer": "Currently, downloads are supported per publication, but you can export multiple individually."
+  },
+  {
+    "question": "How do I explore results over time?",
+    "answer": "Use the timeline filter to see how NASA’s bioscience research has evolved year by year."
+  },
+  {
+    "question": "Can I visualize connections?",
+    "answer": "Yes. The knowledge graph view shows how different experiments and findings are linked."
+  },
+  {
+    "question": "What is the benefit of knowledge graphs?",
+    "answer": "Knowledge graphs help identify hidden connections between studies, making it easier to see patterns across space biology research."
+  },
+  {
+    "question": "Can I see details about astronaut health experiments?",
+    "answer": "Yes. Use keywords like 'astronaut health' in the search bar or apply health-related filters."
+  },
+  {
+    "question": "Does this include plant growth experiments?",
+    "answer": "Yes. You can search for 'plant growth' to explore related bioscience experiments conducted in space."
+  },
+  {
+    "question": "Are radiation studies included?",
+    "answer": "Yes. NASA’s bioscience dataset includes publications on radiation effects on humans, animals, and plants."
+  },
+  {
+    "question": "How do I navigate back to the home page?",
+    "answer": "Click the dashboard logo at the top left to return to the home page."
+  },
+  {
+    "question": "Where can I find the help section?",
+    "answer": "Click on the 'Help' tab in the navigation bar to access FAQs and user guides."
+  },
+  {
+    "question": "Who can use this dashboard?",
+    "answer": "The dashboard is designed for researchers, students, policy makers, and space enthusiasts interested in NASA bioscience research."
+  },
+  {
+    "question": "Is the data up to date?",
+    "answer": "Yes. The dashboard automatically integrates new NASA bioscience publications as they are released."
+  },
+  {
+    "question": "Can I compare experiments?",
+    "answer": "Yes. Select multiple publications to view a side-by-side comparison of their findings."
+  },
+  {
+    "question": "Does the dashboard cover Moon and Mars missions?",
+    "answer": "Yes. It includes research relevant to human missions to the Moon, Mars, and long-duration spaceflight."
+  },
+  {
+    "question": "What if I can’t find the publication I need?",
+    "answer": "Try different keywords or filters. If it’s still missing, check NASA’s official research archives for full datasets."
+  },
+  {
+    "question": "Can I contribute feedback?",
+    "answer": "Yes. Use the 'Feedback' option in the Help section to share your suggestions."
+  },
+  {
+    "question": "What AI features does this dashboard use?",
+    "answer": "It uses AI to generate summaries, extract key findings, and build knowledge graphs from NASA bioscience publications."
+  },
+  {
+    "question": "Does the dashboard work on mobile?",
+    "answer": "Yes. The dashboard is fully responsive and can be accessed on desktop, tablet, and mobile devices."
+  },
+  {
+    "question": "How does this support space exploration?",
+    "answer": "By summarizing decades of bioscience research, the dashboard helps scientists prepare for future Moon and Mars missions."
+  },
+  {
+    "question": "What is the purpose of the NASA Biological & Physical Sciences data portal?",
+    "answer": "The portal provides access to data and publications related to NASA's research in biological and physical sciences, supporting space exploration and understanding of life in space."
+  },
+  {
+    "question": "How can I search for NASA bioscience publications?",
+    "answer": "You can use the NASA Space Life Sciences Library, a searchable database of global, peer-reviewed scientific publications from space life sciences research."
+  },
+  {
+    "question": "What types of experiments are included in the GeneLab Data System?",
+    "answer": "GeneLab includes data from microbial, cell biology, plant, insect, and rodent experiments conducted aboard the International Space Station."
+  },
+  {
+    "question": "Is the GeneLab Data System publicly accessible?",
+    "answer": "Yes, GeneLab is publicly accessible, allowing scientists and researchers to explore and utilize space biology data."
+  },
+  {
+    "question": "What is the ISS Researcher's Guide Series?",
+    "answer": "The ISS Researcher's Guide Series is a collection of 15 discipline-specific guides developed by the International Space Station Program Science Office, available for download in PDF format."
+  },
+  {
+    "question": "How can I access raw and summary data from spaceflight missions?",
+    "answer": "You can use the Environmental Data App (EDA) portal, which provides access to telemetry and radiation data from spaceflight missions, including the International Space Station."
+  },
+  {
+    "question": "What is the Biomass Earthdata Dashboard?",
+    "answer": "The Biomass Earthdata Dashboard is a tool that focuses on above-ground biomass, providing insights into the size and carbon content of Earth's forests."
+  },
+  {
+    "question": "Can I compare data across multiple spaceflight missions?",
+    "answer": "Yes, the Environmental Data App allows users to visualize and compare data across multiple missions using the Mission Comparison feature."
+  },
+  {
+    "question": "What is the NASA Space Life Sciences Library?",
+    "answer": "The NASA Space Life Sciences Library is a searchable database of global, peer-reviewed scientific publications from space life sciences research."
+  },
+  {
+    "question": "What is the GeneLab Collaborative Workspace?",
+    "answer": "The GeneLab Collaborative Workspace is a platform that enables scientists to collaborate and share insights on space biology data."
+  },
+  {
+    "question": "How can I visualize global temperature changes?",
+    "answer": "You can use the Global Temperature Earth Indicator, which provides visualizations of global surface temperature changes compared to historical baselines."
+  },
+  {
+    "question": "What is the role of the Space Biosciences Division?",
+    "answer": "The Space Biosciences Division conducts research to understand the effects of spaceflight on biological systems, supporting human space exploration."
+  },
+  {
+    "question": "How can I access NASA bioscience publications?",
+    "answer": "You can access NASA bioscience publications through the NASA Space Life Sciences Library, which offers a searchable database of peer-reviewed scientific publications."
+  },
+  {
+    "question": "What is the significance of the Biomass Earthdata Dashboard?",
+    "answer": "The Biomass Earthdata Dashboard provides critical information on biomass distribution and change, aiding in understanding the global carbon cycle and climate change."
+  },
+  {
+    "question": "How does the Environmental Data App support mission analysis?",
+    "answer": "The Environmental Data App supports mission analysis by providing tools to visualize and compare environmental telemetry and radiation data from spaceflight missions."
+  },
+  {
+    "question": "What types of data are available in the GeneLab Data System?",
+    "answer": "The GeneLab Data System includes data from various biological experiments, including those involving microbes, plants, insects, and rodents, conducted in space."
+  },
+  {
+    "question": "How can I explore NASA's bioscience research?",
+    "answer": "You can explore NASA's bioscience research through the Biological & Physical Sciences data portal, which offers access to publications, datasets, and tools."
+  },
+  {
+    "question": "What is the purpose of the ISS Researcher's Guide Series?",
+    "answer": "The ISS Researcher's Guide Series aims to provide comprehensive information to researchers about conducting experiments aboard the International Space Station."
+  },
+  {
+    "question": "Can I download data from the Environmental Data App?",
+    "answer": "Yes, the Environmental Data App provides options to download raw and summary data through its Data Tables section."
+  },
+  {
+    "question": "What is the significance of the GeneLab Data System version 2.0?",
+    "answer": "GeneLab Data System version 2.0 enhances data access with improved search capabilities, data federation, and a collaborative workspace."
+  },
+  {
+    "question": "How can I stay updated on NASA bioscience news?",
+    "answer": "You can stay updated on NASA bioscience news by subscribing to newsletters and following announcements on the NASA website."
+  },
+  {
+    "question": "What is the role of the Space Biosciences Division at NASA Ames Research Center?",
+    "answer": "The Space Biosciences Division at NASA Ames Research Center conducts research to understand the effects of spaceflight on biological systems, supporting human space exploration."
+  },
+  {
+    "question": "How can I access publications enabled by NASA Open Science?",
+    "answer": "You can access publications enabled by NASA Open Science through the Open Science Publications portal, which offers a searchable database of publications."
+  },
+  {
+    "question": "What is the significance of the Global Temperature Earth Indicator?",
+    "answer": "The Global Temperature Earth Indicator provides visualizations of global surface temperature changes, aiding in the understanding of climate trends."
+  },
+  {
+    "question": "How can I contribute to NASA bioscience research?",
+    "answer": "You can contribute to NASA bioscience research by participating in citizen science projects, collaborating through the GeneLab platform, or staying informed through NASA's outreach programs."
+  },
+  {
+    "question": "What is the purpose of the Biomass Earthdata Dashboard?",
+    "answer": "The Biomass Earthdata Dashboard provides insights into the size and carbon content of Earth's forests, aiding in understanding the global carbon cycle."
+  },
+  {
+    "question": "How can I visualize radiation data from spaceflight missions?",
+    "answer": "You can visualize radiation data from spaceflight missions using the Environmental Data App, which offers tools to display and analyze radiation measurements."
+  },
+  {
+    "question": "What is the significance of the GeneLab Data System for space biology research?",
+    "answer": "The GeneLab Data System serves as a central repository for space biology data, facilitating open access and collaboration among researchers."
+  },
+  {
+    "question": "How can I access data from the International Space Station?",
+    "answer": "You can access data from the International Space Station through various NASA portals, including the Environmental Data App and GeneLab Data System."
+  },
+  {
+    "question": "What is the role of the Space Biosciences Division in human space exploration?",
+    "answer": "The Space Biosciences Division conducts research to understand the effects of spaceflight on biological systems, informing strategies for human space exploration."
+  },
+  {
+    "question": "How can I explore NASA's Earth science data?",
+    "answer": "You can explore NASA's Earth science data through the Earthdata portal, which provides access to a wide range of datasets and tools."
+  },
+  {
+    "question": "What is the NASA Task Book?",
+    "answer": "The NASA Task Book is an online database of research projects supported by NASA's Biological & Physical Sciences (BPS) Division and Human Research Program (HRP)."
+  },
+  {
+    "question": "What types of research projects are included in the NASA Task Book?",
+    "answer": "The Task Book includes projects in Space Biology, Physical Sciences, and Human Research, covering both active and completed studies."
+  },
+  {
+    "question": "Since when does the NASA Task Book track research projects?",
+    "answer": "The NASA Task Book tracks tasks funded from Fiscal Year 2004 to the present."
+  },
+  {
+    "question": "Can I search for research projects by fiscal year?",
+    "answer": "Yes, the Task Book allows users to search for projects by fiscal year, from FY2004 to the current year."
+  },
+  {
+    "question": "What information can I find in a project description?",
+    "answer": "Each project description includes details such as the project's objectives, methodology, and anticipated outcomes."
+  },
+  {
+    "question": "Does the Task Book provide access to annual progress reports?",
+    "answer": "Yes, the Task Book provides access to annual progress reports for each project."
+  },
+  {
+    "question": "Can I view final reports for completed projects?",
+    "answer": "Yes, final reports for completed projects are available in the Task Book."
+  },
+  {
+    "question": "Are bibliographical listings of publications available?",
+    "answer": "Yes, the Task Book includes bibliographical listings of publications resulting from NASA-funded studies."
+  },
+  {
+    "question": "Can I search for projects by investigator's name?",
+    "answer": "Yes, the Task Book allows users to search for projects by investigator's first and last name."
+  },
+  {
+    "question": "Is there a keyword search feature?",
+    "answer": "Yes, the Task Book includes a keyword search feature to help users find relevant projects."
+  },
+  {
+    "question": "Can I filter projects by program?",
+    "answer": "Yes, users can filter projects by program, such as Human Research, Space Biology, or Physical Sciences."
+  },
+  {
+    "question": "What is the purpose of the 'Maps/Metrics' section?",
+    "answer": "The 'Maps/Metrics' section provides visual representations and metrics related to the research projects."
+  },
+  {
+    "question": "Can I access archived projects from before FY2004?",
+    "answer": "Yes, the Task Book provides access to archived projects from FY1995 to FY2003."
+  },
+  {
+    "question": "What is the 'SPACELINE Current Awareness Lists'?",
+    "answer": "The 'SPACELINE Current Awareness Lists' is a service that provides current awareness information related to space life sciences."
+  },
+  {
+    "question": "Is there a bibliography search feature?",
+    "answer": "Yes, the Task Book includes a bibliography search feature to help users find publications related to specific projects."
+  },
+  {
+    "question": "Can I submit my own research project?",
+    "answer": "Yes, the Task Book includes a 'PI Submission Site' where principal investigators can submit their research projects."
+  },
+  {
+    "question": "What is the 'NASA Life Sciences Portal'?",
+    "answer": "The 'NASA Life Sciences Portal' is a resource that provides access to various NASA life sciences data and information."
+  },
+  {
+    "question": "What is the 'Translational Research Institute for Space Health'?",
+    "answer": "The 'Translational Research Institute for Space Health' is an institute that focuses on translating research findings into practical applications for space health."
+  },
+  {
+    "question": "What is the 'NASA Space Radiation Laboratory'?",
+    "answer": "The 'NASA Space Radiation Laboratory' is a facility that conducts research on space radiation and its effects."
+  },
+  {
+    "question": "Can I view project details without an account?",
+    "answer": "Yes, project details are publicly accessible without the need for an account."
+  },
+  {
+    "question": "Is the Task Book accessible to the public?",
+    "answer": "Yes, the NASA Task Book is publicly accessible and can be used by researchers, educators, and the general public."
+  },
+  {
+    "question": "Can I download project reports?",
+    "answer": "Yes, project reports are available for download in various formats."
+  },
+  {
+    "question": "Does the Task Book include information on project funding?",
+    "answer": "Yes, the Task Book includes information on the funding sources for each project."
+  },
+  {
+    "question": "Can I find information on international collaborations?",
+    "answer": "Yes, the Task Book includes information on international collaborations involved in each project."
+  },
+  {
+    "question": "Is there a glossary of terms available?",
+    "answer": "Yes, the Task Book provides a glossary of terms to help users understand the terminology used."
+  },
+  {
+    "question": "Can I contact project investigators directly?",
+    "answer": "Yes, contact information for project investigators is provided in the project details."
+  },
+  {
+    "question": "Are there any training materials available?",
+    "answer": "Yes, the Task Book provides training materials to help users navigate and utilize the database."
+  },
+  {
+    "question": "Can I access the Task Book on mobile devices?",
+    "answer": "Yes, the Task Book is accessible on mobile devices through a web browser."
+  },
+  {
+    "question": "Is there a help section available?",
+    "answer": "Yes, the Task Book includes a help section to assist users with navigating and using the database."
+  }
+]
